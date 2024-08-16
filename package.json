@@ -1,0 +1,56 @@
+{
+  "name": "br.io",
+  "version": "0.0.39",
+  "description": "Biblioteca de ferramentas utilitárias voltadas para programadores brasileiros",
+  "main": "brasil.js",
+  "browser": "brasil.browser.js",
+  "scripts": {
+    "test": "nodeunit ./tests/*Test.js && nodeunit ./tests/boleto/bancos/*Test.js && nodeunit ./tests/boleto/*Test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/guio11221/br.io.git"
+  },
+  "keywords": [
+    "brasil",
+    "tabela",
+    "ibge",
+    "estados",
+    "ferramentas",
+    "utilitarias",
+    "validacoes",
+    "nfe",
+    "nota",
+    "fiscal",
+    "eletronica",
+    "cpf",
+    "cnpj",
+    "bancos",
+    "itau",
+    "banco do brasil",
+    "bradesco",
+    "caixa",
+    "caixa economica",
+    "boleto bancario",
+    "nota fiscal eletronica",
+    "sefaz",
+    "receita federal",
+    "pessoa juridica",
+    "pessoa fisica",
+    "cfop",
+    "ncm",
+    "DDD"
+  ],
+  "author": "Guii Santos  <sguii5147@gmail.com>",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "dependencies": {
+    "gammautils": "0.0.67",
+    "iconv-lite": "^0.4.3",
+    "pdfkit": "^0.7.0",
+    "request": "^2.37.0"
+  },
+  "devDependencies": {
+    "nodeunit": "~0.8.1"
+  }
+}
